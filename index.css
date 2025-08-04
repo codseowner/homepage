@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.header{
+    background: #5a4bfa; /*グラデーションを作れる*/
+    color: white;
+    text-align: center;
+    padding: 100px 5px;
+    /* margin: 0; */
+}
+.header a{
+    border: solid 1px white;
+    border-radius: 10px;
+}
+.header button{
+    border-radius: 100%;
+}
+.main {
+    background: #506fc7;
+    color: white;
+}
+.main h2{
+    text-align: center;
+    /* margin: 40px 0; */
+}
+
+.main h3{
+    text-align: center;
+}
+
+.contents {
+    width: 80%; /*レスポンシブデザインになる*/
+    padding: 10px;
+    margin: 0 auto;
+    background: black;
+    border-radius: 20px;
+}
+
+.footer{
+    background: #001140;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
